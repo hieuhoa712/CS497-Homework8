@@ -30,4 +30,19 @@ Basic Algorithm:
         subtract more by shifting divisor int
         
 
+3. Time Complexity: O(n)
 
+Suppose, we have a series of memory cells storing how many coins that 
+are needed as a minimum to get there. We can consider while the initial
+value of all the others is going to be INT_MAX. Therefore, we want to
+calculate up to that amount, and we have the value for simplicity 
+amount + 1 cells are how many we need.
+
+Basic Algorithm:
+
+    creating the base array
+    sort algorithm
+    setting the initial array at [0]
+        0 for all the rest
+    if this was not previously reached
+        add the value for INT_MAX
