@@ -18,3 +18,16 @@ Basic Algorithm:
     Mark if vertex i visited
         Traverse i stored in graph[i] and call DFS() on them if they are not visited
     Topological sorting algorithm
+
+2. Time Complexity: O(1)
+
+The basic definition of quotient of division is the number of times that
+we can subtract the divisor from the dividend without making it negative
+
+Basic Algorithm:
+
+    While divident >= divisor
+        subtract more by shifting divisor int
+        
+
+
